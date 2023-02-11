@@ -1,0 +1,134 @@
+body {
+    background-image: url(img/wall.jpg);
+    margin: 0;
+    padding: 0;
+    color: rgb(240,240,240);
+    
+ 
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+.share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(240,240,240);
+}
+
+
+
+.container {
+   
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(240,240,240);
+}
+
+.tile {
+    align-items: center;
+    width: 550px;
+    height: 200px;
+    font-size: xx-large;
+    background-color: rgb(37,37,37);
+    margin: 37px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+}
+
+.tile-share-button {
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(52,52,52);
+}
+
+.tile-share-button svg {
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+
+.image-container {
+    height: 96px;
+    width: 96px;
+    border-radius: 48px;
+    overflow: hidden;
+}
+
+.image-container img {
+    height: 100%;
+}
+
+.icon {
+    margin: 4px 8px;
+    width: 44px;
+    height: 44px;
+}
+.tt {
+    padding-left: 8px;
+    padding-bottom: 3px;
+    height: 50px;
+    width: 50px;
+}
+#niall{
+    background-image: url(niall/niallwall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#charlie{
+    background-image: url(charlie/charliewall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#taylor{
+    background-image: url(taylor/taylorwall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#zayn{
+    background-image: url(zayn/zaynwall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#louis{
+    background-image: url(louis/tommo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#justin{
+    background-image: url(justin/justinwall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#direction{
+    background-image: url(oned/onedwall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#harry{
+    background-image: url(harry/harrywall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
